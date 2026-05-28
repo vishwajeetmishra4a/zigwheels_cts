@@ -21,7 +21,9 @@ public class ZigwheelsTest extends BaseTest {
 		ElectricBikes electricpage=new ElectricBikes(driver);
 		
 		electricpage.gotoPage();
-		electricpage.searchEVBike();
+		electricpage.searchEBike();
+		electricpage.openFirstEBike();
+		electricpage.printingEBikeDetails();
 	}
 
 	@Test(priority = 1, enabled = false)

@@ -2,20 +2,20 @@
 <testng-results ignored="6" total="7" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-28T12:52:55 IST" name="Zigwheels Automation Suite" finished-at="2026-05-28T12:53:24 IST" duration-ms="29534">
+  <suite started-at="2026-05-28T14:37:41 IST" name="Zigwheels Automation Suite" finished-at="2026-05-28T14:38:15 IST" duration-ms="33648">
     <groups>
     </groups>
-    <test started-at="2026-05-28T12:52:55 IST" name="Zigwheels Functional Test" finished-at="2026-05-28T12:53:24 IST" duration-ms="29534">
+    <test started-at="2026-05-28T14:37:41 IST" name="Zigwheels Functional Test" finished-at="2026-05-28T14:38:15 IST" duration-ms="33648">
       <class name="tests.ZigwheelsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ZigwheelsTest@3e694b3f]" started-at="2026-05-28T12:52:55 IST" name="setUp" finished-at="2026-05-28T12:53:06 IST" duration-ms="11240" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ZigwheelsTest@3e694b3f]" started-at="2026-05-28T14:37:41 IST" name="setUp" finished-at="2026-05-28T14:37:51 IST" duration-ms="9463" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testMorePage()[pri:0, instance:tests.ZigwheelsTest@3e694b3f]" started-at="2026-05-28T12:53:06 IST" name="testMorePage" finished-at="2026-05-28T12:53:19 IST" duration-ms="13217" status="PASS">
+        <test-method signature="testMorePage()[pri:0, instance:tests.ZigwheelsTest@3e694b3f]" started-at="2026-05-28T14:37:51 IST" name="testMorePage" finished-at="2026-05-28T14:38:08 IST" duration-ms="17318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMorePage -->
-        <test-method is-config="true" signature="exit()[pri:0, instance:tests.ZigwheelsTest@3e694b3f]" started-at="2026-05-28T12:53:19 IST" name="exit" finished-at="2026-05-28T12:53:24 IST" duration-ms="5036" status="PASS">
+        <test-method is-config="true" signature="exit()[pri:0, instance:tests.ZigwheelsTest@3e694b3f]" started-at="2026-05-28T14:38:08 IST" name="exit" finished-at="2026-05-28T14:38:15 IST" duration-ms="6826" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exit -->

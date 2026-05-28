@@ -31,7 +31,7 @@ public class ElectricBikes {
 		eBike.click();
 	}
 	
-	public void searchEVBike() {
+	public void searchEBike() {
 		
 		WebElement Searchbtn=wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//li[contains(@class,'c-p')]//strong[@class='block']")));
 		Searchbtn.click();
@@ -40,4 +40,26 @@ public class ElectricBikes {
 		selectBike.click();
 	}
 	
+	public void openFirstEBike() {
+		WebElement firstBike=wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//li[contains(@class,'modelItem')]//img[1]")));
+		
+		((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);",firstBike);
+		
+		((JavascriptExecutor)driver).executeScript("arguments[0].click();",firstBike);
+		
+		for(String win:driver.getWindowHandles()) {
+			driver.switchTo().window(win);
+		}
+	}
+	
+	public void printingEBikeDetails() {
+		try {
+			WebElement name=driver.findElement(By.xpath("//a[@data-track-label='-model-name']"));
+			System.out.println(name.getText());
+			
+		}
+		catch(Exception e) {
+			System.out.println("Unable to fetch Full Data");
+		}
+	}
 }
