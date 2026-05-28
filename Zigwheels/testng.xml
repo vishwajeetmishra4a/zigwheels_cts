@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Zigwheels Automation Suite" parallel="false">
+
+    <test name="Zigwheels Functional Test">
+
+        <classes>
+            <!-- Main Test Class -->
+            <class name="tests.ZigwheelsTest"/>
+        </classes>
+
+    </test>
+
+</suite>
