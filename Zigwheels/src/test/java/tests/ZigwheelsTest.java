@@ -10,10 +10,19 @@ import pages.ElectricCarsPage;
 import pages.LoginPage;
 import pages.ReviewPage;
 import pages.UsedCarsPage;
+import pages.ElectricBikes;
 import utils.ScreenshotUtil;
 
 
 public class ZigwheelsTest extends BaseTest {
+	
+	@Test(enabled=true)
+	public void testMorePage() {
+		ElectricBikes electricpage=new ElectricBikes(driver);
+		
+		electricpage.gotoPage();
+		electricpage.searchEVBike();
+	}
 
 	@Test(priority = 1, enabled = false)
 	public void testUpcomingHondaBikes() {
@@ -49,7 +58,7 @@ public class ZigwheelsTest extends BaseTest {
 		System.out.println("✅ Google Login Test Completed");
 	}
 
-	@Test(enabled = true)
+	@Test(enabled = false)
 	public void testUserReviews() {
 
 		ReviewPage reviewPage = new ReviewPage(driver);
